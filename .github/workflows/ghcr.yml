@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/todoapp
+  IMAGE_NAME: ghcr.io/${{ github.repository_owner,, }}/todoapp
 
 jobs:
   build-and-push:
